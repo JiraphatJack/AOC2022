@@ -10,6 +10,8 @@ with open("input.txt", "r+") as input:
         else:
             cur += int(line)
         totalE.sort()
-    print(sum(totalE[-3:]))
+    print("for part1 ans: ", totalE[-1:][0])
+
+    print("for part2 ans: ", sum(totalE[-3:]))
 
 
